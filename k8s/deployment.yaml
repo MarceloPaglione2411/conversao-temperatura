@@ -14,7 +14,7 @@ spec:
       containers:
       - name: web
         #image: fabricioveronez/primeira-pipeline-cicd
-        image: marcelopaglione/conversao-temperatura:tagname
+        image: marcelopaglione/conversao-temperatura:latest
         ports:
         - containerPort: 5000
 --- 
